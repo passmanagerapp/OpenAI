@@ -67,4 +67,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp")
     implementation("com.squareup.okhttp3:logging-interceptor")
     implementation "com.jakewharton.timber:timber:${timberVersion}"
+
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.0'
+
 }
